@@ -1,5 +1,6 @@
 
 import './App.css'
+import UseContext from './hooks/use-context/UseContext'
 import UseEffect from './hooks/use-effect/UseEffect'
 import UseState from './hooks/use-state/UseState'
 
@@ -9,7 +10,8 @@ function App() {
     <>
     <div className="continer">
       {/* <UseState /> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      <UseContext />
     </div>
     </>
   )
