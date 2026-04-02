@@ -2,6 +2,7 @@
 import './App.css'
 import UseContext from './hooks/use-context/UseContext'
 import UseEffect from './hooks/use-effect/UseEffect'
+import UseIdHook from './hooks/use-id/UseIdHook'
 import UseImperative from './hooks/use-imperative/UseImperative'
 import UseLayoutEffect from './hooks/use-layout-effect/UseLayoutEffect'
 import UseReducer from './hooks/use-reducer/UseReducer'
@@ -19,7 +20,8 @@ function App() {
       {/* <UseReducer/> */}
       {/* <UseReference/> */}
       {/* <UseImperative/> */}
-      <UseLayoutEffect/>
+      {/* <UseLayoutEffect/> */}
+      <UseIdHook/>
     </div>
     </>
   )
