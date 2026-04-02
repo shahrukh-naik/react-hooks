@@ -8,6 +8,7 @@ import UseLayoutEffect from './hooks/use-layout-effect/UseLayoutEffect'
 import UseReducer from './hooks/use-reducer/UseReducer'
 import UseReference from './hooks/use-reference/UseReference'
 import UseState from './hooks/use-state/UseState'
+import UseSyncStore from './hooks/use-sync-store/UseSyncStore'
 import UseTransition from './hooks/use-transition/UseTransition'
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       {/* <UseImperative/> */}
       {/* <UseLayoutEffect/> */}
       {/* <UseIdHook/> */}
-      <UseTransition />
+      {/* <UseTransition /> */}
+      <UseSyncStore/>
     </div>
     </>
   )
